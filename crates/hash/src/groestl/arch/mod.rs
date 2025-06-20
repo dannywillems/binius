@@ -22,5 +22,7 @@ cfg_if! {
 	} else {
 		mod portable;
 		pub use portable::GroestlShortImpl;
+		mod portable2;
+		pub use portable2::GroestlShortImpl;
 	}
 }
